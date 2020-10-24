@@ -7,8 +7,8 @@ Studied based on the [UNITER](https://github.com/ChenRocks/UNITER) model.
 bash download.sh $YOUR_PATH
 ```
 
-* Download Knowledge   
--preparing
+* Extraction Knowledge   
+[click here](https://github.com/jaeyun95/KnowledgeExtraction_vers2.0) and extract knowledge.   
 
 * Download Attribute   
 [click here](https://github.com/Deanplayerljx/tab-vcr/tree/master/data) and download at 2 top 3.   
@@ -16,4 +16,5 @@ bash download.sh $YOUR_PATH
 ## Requirements   
 * [nvidia driver](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation)(418+)   
 * [Docker](https://docs.docker.com/engine/install/ubuntu/)(19.03+)
-* [nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-docker#quickstart)
+* [nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-docker#quickstart)   
+
