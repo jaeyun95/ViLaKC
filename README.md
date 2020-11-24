@@ -1,4 +1,4 @@
-# ViLaKG   
+# VilLaKG   
 Studied based on the [UNITER](https://github.com/ChenRocks/UNITER) model.
 
 ## Dataset   
@@ -9,9 +9,6 @@ bash download.sh $YOUR_PATH
 
 * Extraction Knowledge   
 [click here](https://github.com/jaeyun95/KnowledgeExtraction_vers2.0) and extract knowledge.   
-
-* Download Attribute   
-[click here](https://github.com/Deanplayerljx/tab-vcr/tree/master/data) and download at 2 top 3.   
 
 ## Requirements   
 * [nvidia driver](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation)(418+)   

@@ -1,5 +1,5 @@
 {
-    "output_dir": "/storage/pretrain/vlk",
+    "output_dir": "/storage/pretrain/villa",
     "model_config": "/src/config/base_model.json",
     "checkpoint": "/pretrain/base_model.pt",
     "mrm_prob": 0.15,
