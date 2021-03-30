@@ -1,5 +1,4 @@
-# VilLaKG   
-Studied based on the [UNITER](https://github.com/ChenRocks/UNITER) model.
+# ViLaKC   
 
 ## Dataset   
 * Download VCR   
