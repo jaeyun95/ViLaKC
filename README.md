@@ -2,5 +2,5 @@
 
 Image-Language-Knowledge Co-Embedding for VCR.   
 
-![architecture](/Architecture/architecture.jpg)
+![architecture](/Architecture/architecture.JPG)
 
