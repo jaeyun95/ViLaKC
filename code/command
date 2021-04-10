@@ -1,0 +1,11 @@
+source launch_container.sh /media/ailab/jaeyun/UNITER/txt_db /media/ailab/jaeyun/UNITER/img_db/vcr /media/ailab/jaeyun/UNITER/finetune /media/ailab/jaeyun/UNITER/pretrained /media/ailab/jaeyun/UNITER/VCR_knowledges/topK
+
+horovodrun -np 2 python train_vcr.py --config config/train-vcr-base-4gpu.json --output_dir /src/vcr_vilakc
+
+
+mongoexport -d dataset -c train_rationale_mid -o /media/ailab/jaeyun/UNITER/VCR_knowledges/topK/train_top50_retionale_1.json --port 27017
+
+horovodrun -np 2 python inf_vcr.py --txt_db /txt/vcr_test.db --img_db "/img/vcr_gt_val/;/img/vcr_val/" --split val --output_dir /src/pretrain_new_3tasks --checkpoint 150000 --pin_mem --fp16
+
+
+horovodrun -np 2 python pretrain.py --config config/pretrain-indomain-base-8gpu.json --output_dir /src/pretrain_vilakc
