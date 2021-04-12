@@ -19,7 +19,7 @@ bash download.sh $YOUR_PATH
 ```
 
 * Extraction Knowledge   
-[click here](https://github.com/jaeyun95/KnowledgeExtraction_vers2.0) and extract knowledge.   
+[click here](https://github.com/jaeyun95/KnowledgeExtraction) and extract knowledge.   
  
 ## 3. Pretraining  
 ```
